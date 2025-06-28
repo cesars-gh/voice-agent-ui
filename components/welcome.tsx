@@ -17,7 +17,7 @@ export const Welcome = ({
     <div
       ref={ref}
       inert={disabled}
-      className="flex flex-col items-center justify-center text-center"
+      className="fixed inset-0 z-10 mx-auto flex h-svh flex-col items-center justify-center text-center"
     >
       {/* <CodeBlockIcon size={64} className="mx-auto mb-4" />
       <h1 className="font-semibold">Voice Agent Quick Start</h1>
