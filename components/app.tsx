@@ -20,12 +20,12 @@ interface AppProps {
 
 export function App({ appConfig }: AppProps) {
   const [sessionStarted, setSessionStarted] = React.useState(false);
-  const { supportsChatInput, supportsVideoInput, supportsScreenShare, startButtonText } = appConfig;
+  const { supportsVideoInput, startButtonText } = appConfig;
 
   const capabilities = {
-    supportsChatInput,
+    supportsChatInput: false,
     supportsVideoInput,
-    supportsScreenShare,
+    supportsScreenShare: false,
   };
 
   const { connectionDetails, refreshConnectionDetails } = useConnectionDetails();

@@ -1,9 +1,9 @@
 import type { AppConfig } from './lib/types';
 
 export const APP_CONFIG_DEFAULTS: AppConfig = {
-  companyName: 'LiveKit',
-  pageTitle: 'Voice Assistant',
-  pageDescription: 'A voice assistant built with LiveKit',
+  companyName: 'Eventify',
+  pageTitle: 'Eventify Agent',
+  pageDescription: 'Talk about the event',
 
   supportsChatInput: true,
   supportsVideoInput: true,
@@ -13,5 +13,5 @@ export const APP_CONFIG_DEFAULTS: AppConfig = {
   accent: '#002cf2',
   logoDark: '/lk-logo-dark.svg',
   accentDark: '#1fd5f9',
-  startButtonText: 'Start call',
+  startButtonText: "Let's talk!",
 };
